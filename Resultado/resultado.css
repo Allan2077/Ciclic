@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 270px auto
+}
+
+.container {
+    background: var(--amarelo-fraco);
+    width: 80%;
+    border: solid 1px rgba(110, 99, 99, 0.171);
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+.header {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    background: var(--branco);
+    border-radius: 5px;
+    font-size: 5em;
+    font-family: 'Handlee', cursive
+}
+
+form {
+    width: 90%;
+    background: var(--branco-cinza);
+    margin-top: 60px;
+    border-radius: 5px;
+    padding: 35px;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+
+.nome{
+    color: var(--preto);
+    font-size: 3em;
+    font-family: 'Handlee', cursive
+}
+
+.mensalidade {
+    color: var(--preto);
+    font-size: 3em;
+    font-family: 'Handlee', cursive
+}
+
+.campoValorTotal{
+    color: var(--preto);
+    font-size: 50px;
+    font-family: 'Handlee', cursive 
+}
+
+.campoTempoValor{ color: var(--preto);
+    font-size: 50px;
+    font-family: 'Handlee', cursive
+ }
+
+button {
+    margin:10px;
+    width: 32%;
+    font-family: 'Handlee', cursive;
+    font-size: xx-large;
+    height: 2em;
+    background: var(--verde-amarelo);
+    color: var(--cinza);
+    border: none
+}
+
+button:hover {
+    background: var(--amarelo-verde);
+    color: var(--preto);
+    cursor: pointer
+}

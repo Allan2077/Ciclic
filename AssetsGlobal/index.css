@@ -1,0 +1,87 @@
+:root {
+    --amarelo-fraco: rgb(253, 252, 247);
+    --branco: rgb(255, 255, 255);
+    --verde-amarelo: rgb(173, 255, 47);
+    --branco-cinza: rgba(246, 247, 240, 0.849);
+    --cinza: rgb(128, 128, 128);
+    --amarelo-verde: rgb(232, 255, 27);
+    --preto: rgb(23, 24, 17)
+}
+
+/* ------------------------------------------------------  */
+
+@media (max-width:1440px) {
+    body {
+        height: 30%;
+    }
+
+    .campoNome input {
+
+        width: 80%
+    }
+
+    .campoMensalidade input {
+        width: 32%
+    }
+
+    form {
+        margin: 30px 10px
+    }
+
+/* ------------------------------------------------  */
+
+    @media (max-width:1024px) {
+
+
+        .campoNome input {
+            width: 80%
+        }
+
+        .campoMensalidade input {
+            width: 32%
+        }
+
+        select {
+            width: 100px
+        }
+
+
+        button {
+            font-size: 1.7em
+        }
+    }
+
+/* ------------------------------------------------------  */
+
+    @media (max-width:768px) {
+
+        label {
+
+            display: flex;
+            height: 2px
+        }
+
+        .campoNome {
+            margin: 35px;
+            width: 80%
+        }
+
+        .campoMensalidade {
+            margin: 35px;
+            width: 70vw
+        }
+
+        .campoTempo {
+            margin: 35px;
+            width: 80%
+        }
+
+        select {
+            width: 100px
+        }
+
+        button {
+            width: 250px
+        }
+    }
+}

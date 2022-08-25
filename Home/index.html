@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ciclic simulacao de jurus">
+    <title>Cicic</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../AssetsGlobal/index.css">
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <div class="header">
+            <span>Ciclic</span>
+        </div>
+
+        <form>
+            <h1>Simulador</h1>
+            <div class="campoNome">
+                <label>NOME:</label>
+                <input type="text" id="campoNome" />
+            </div>
+
+            <div class="campoMensalidade">
+                <label>MENSALIDADE:</label>
+                <input type="text" placeholder="R$" id="campoMensalidade"
+                    onKeyPress="return(moeda(this,'.',',',event))">
+            </div>
+
+            <div class="campoTempo">
+                <label>TEMPO:</label>
+                <select id="campoTempo">
+                    <option value="12"> 1 ANO </option>
+                    <option value="24"> 2 ANO </option>
+                    <option value="36"> 3 ANO </option>
+                    <option value="48"> 4 ANO </option>
+                    <option value="60"> 5 ANO </option>
+                </select>
+            </div>
+        </form>
+
+        <button type="submit" class="btn-Simular" value="Acessar" onClick="btnSimular()">Simular</button>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
