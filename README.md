@@ -1,6 +1,6 @@
 # README
 
-<p align="center"> Tristeza</p>
+<p align="center"> Ciclic</p>
 
 <p align="center">
 <a href="#sobre">Sobre *</a>
