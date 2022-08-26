@@ -41,8 +41,8 @@ Olá [nome], juntando R$[mensalidade] todo mês, você terá R$[resultado da req
 ![prototipo](https://user-images.githubusercontent.com/63480432/186793674-77dfc681-3eed-4387-869e-2eb980d97d7e.png)
 
 # Apresentação 
-https://user-images.githubusercontent.com/63480432/186793151-90467259-af3a-4ab5-8840-4ee4a55e75cf.mp4
 
+https://user-images.githubusercontent.com/63480432/186818412-6982ed85-ad85-40d4-b8f8-3e3f3a97e6c6.mp4
 
 # Tecnologia
 
